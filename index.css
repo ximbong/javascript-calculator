@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Sansita);
+body {
+  background: #a8ccdd;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #a8ccdd 0%, #a8ccdd 0%, #b3b3cc 34%, #b3b3cc 66%, #7db9e8 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #a8ccdd 0%, #a8ccdd 0%, #b3b3cc 34%, #b3b3cc 66%, #7db9e8 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #a8ccdd 0%, #a8ccdd 0%, #b3b3cc 34%, #b3b3cc 66%, #7db9e8 100%);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.name {
+  margin-bottom: 2px;
+}
+
+.name span {
+  font-family: Sansita;
+  font-size: 20px;
+}
+
+.calculator {
+  width: 382px;
+  height: 520px;
+  margin: 150px auto;
+  background-color: #FFB85F;
+  border-radius: 30px;
+  border: 1px outset black;
+  padding: 20px 30px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.name {
+  text-align: right;
+  font-style: italic;
+}
+
+.display {
+  border-width: 2px;
+  border-style: inset;
+  width: 100%;
+  background-color: #8ED2C9;
+  height: 100px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.answer {
+  height: 60px;
+  width: 100%;
+  text-align: right;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.input {
+  font-size: 20px;
+}
+
+.button {
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+  width: 70px;
+  color: #462066;
+  background-color: #FCF4D9;
+  padding: 10px;
+  text-align: center;
+  margin: 6px 5px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.moved {
+  transform: translateY(1px);
+  -webkit-box-shadow: -0.5px -1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -0.5px -1px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -0.5px -1px 5px 0px rgba(0, 0, 0, 0.75);
+}
